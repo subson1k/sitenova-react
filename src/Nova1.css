@@ -1,0 +1,774 @@
+body {
+  padding: 0;
+  margin: 0;
+ 
+  -webkit-tap-highlight-color: transparent;
+ 
+}
+
+
+#mainContainer {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  height: 200vh;
+  width: 100vw;
+  overflow: hidden;
+ 
+}
+
+#page1 {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+ 
+}
+
+/*#electricImg{
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  height: 100vh;
+  width: 100vw;     
+  opacity: 0.8;
+  z-index: 1;
+  */
+/*
+  #novaBackground{
+  position: absolute;
+  top: -25vh;
+  left: -8vw;
+  width: 120vw;
+  height: 260vh; 
+  animation: backgroundChange 30s ease-in-out infinite; 
+  }
+  */
+
+#planetImgDiv {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+#novaBackground {
+  top: 0vh;
+  left: 1vw;
+  height: 115vh;
+  z-index: 10;
+  animation: novaDisplay 30s ease-in-out infinite;
+  z-index: 0;
+}
+#star1 {
+  position: absolute;
+  top: 31vh;
+  left: 75.5vw;
+  width: 2vw;
+  z-index: 5;
+  opacity: 0;
+  animation: shine 10s linear infinite;
+  animation-delay: 2s;
+  display: block;
+}
+#star2 {
+  position: absolute;
+  top: 44vh;
+  left: 15.5vw;
+  width: 2vw;
+  z-index: 5;
+  opacity: 0;
+  animation: shine 10s linear infinite;
+  animation-delay: 9s;
+  display: block;
+}
+#star3 {
+  position: absolute;
+  top: 30.5vh;
+  left: 43.5vw;
+  width: 2vw;
+  z-index: 5;
+  opacity: 0;
+  animation: shine 10s linear infinite;
+  animation-delay: 11s;
+  display: block;
+}
+
+#saucer {
+  position: absolute;
+  top: 30.5vh;
+  left: 10vw;
+  width: 5vw;
+  z-index: 5;
+  opacity: 0;
+  animation: saucer 20s linear infinite;
+  animation-delay: 4s;
+  display: block;
+}
+
+#unsplashCredit {
+  position: absolute;
+  color: white;
+  top: 95vh;
+  left: 85vw;
+  font-size: 0.8vw;
+  display: block;
+}
+
+#unsplashCredit a {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  top: 8vh;
+  left: 1vw;
+  width: 18vw;
+  z-index: 3;
+  display: block;
+  z-index: 11;
+  opacity: 0;
+  animation: appear 2s linear forwards;
+  animation-delay: 1s;
+  z-index: 2;
+}
+#fBook {
+  position: absolute;
+  top: 5vh;
+  left: 89vw;
+  width: 8vw;
+  animation: appear 2s linear forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  z-index: 6;
+}
+
+#nic {
+  position: absolute;
+  top: 9vh;
+  left: 78vw;
+  width: 12vw;
+}
+
+ 
+#pH {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 100;
+}
+
+
+
+
+
+#novaLogo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  opacity: 0;
+  animation: appear 2s linear forwards;
+}
+
+
+
+
+#freepic {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 9px;
+  color: rgb(179, 169, 169);
+  z-index: 6;
+}
+
+#webDesignCircle {
+  position: absolute;
+  top: 60vh;
+  left: 18vw;
+  width: 15.2vw;
+  opacity: 0;
+  animation: appear 2s linear forwards;
+  animation-delay: 1s;
+  z-index: 5;
+}
+#circle {
+  position: absolute;
+  top: 60vh;
+  left: 42vw;
+  width: 15.2vw;
+  opacity: 0;
+  animation: appear 2s linear forwards;
+  animation-delay: 1s;
+  z-index: 5;
+}
+#circle:hover {
+  cursor: pointer;
+}
+#domainNameCircle {
+  position: absolute;
+  top: 60vh;
+  left: 65vw;
+  width: 15vw;
+  opacity: 0;
+  animation: appear 2s linear forwards;
+  animation-delay: 1s;
+  z-index: 5;
+}
+
+
+/* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+
+  @media only screen and (max-device-width: 1050px) {
+    /* page 1 below */
+
+    body {
+      padding: 0;
+      margin: 0;
+      -webkit-tap-highlight-color: transparent;
+      
+    }
+    
+    #mainContainer {
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+  
+    #page1 {
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      height: 100vh;
+      width: 100vw;
+      background-color: black;
+      
+    }
+    #planetImgDiv {
+      display: flex;
+      justify-content: center;
+      z-index: 0;
+    }
+    #novaBackground {
+      top: 0vh;
+      left: 1vw;
+      height: 95vh;
+      animation: none;
+      z-index: 0;
+    }
+  
+   
+    #star1 {
+      position: absolute;
+      top: 31vh;
+      left: 76vw;
+      width: 2vw;
+      z-index: 5;
+      opacity: 0;
+      animation: shine 10s linear infinite;
+      animation-delay: 2s;
+      display: none;
+    }
+    #star2 {
+      position: absolute;
+      top: 44vh;
+      left: 16.2vw;
+      width: 2vw;
+      z-index: 5;
+      opacity: 0;
+      animation: shine 10s linear infinite;
+      animation-delay: 6s;
+      display: none;
+    }
+    #star3 {
+      position: absolute;
+      top: 30.5vh;
+      left: 44vw;
+      width: 2vw;
+      z-index: 5;
+      opacity: 0;
+      animation: shine 10s linear infinite;
+      animation-delay: 4s;
+      display: none;
+    }
+  
+    #saucer {
+      position: absolute;
+      top: 30.5vh;
+      left: 10vw;
+      width: 5vw;
+      z-index: 5;
+      opacity: 0;
+      animation: saucer 20s linear infinite;
+      animation-delay: 4s;
+      display: none;
+    }
+  
+    #unsplashCredit {
+      position: absolute;
+      color: white;
+      top: 95vh;
+      left: 85vw;
+      font-size: 0.8vw;
+      display: none;
+    }
+  
+    /* 
+      #novaBackground{
+        position: absolute;
+        top: -20vh;
+        left: -50vw;
+        width: 150vw;
+        height: 140vh; 
+        animation: backgroundChange 30s ease-in-out infinite; 
+        animation: none;
+        }
+  */
+  
+    #logo {
+      position: absolute;
+      top: 5vh;
+      left: 55vw;
+      width: 37vw;
+      z-index: 3;
+      display: block;
+      z-index: 11;
+    }
+  
+    #fBook {
+      position: absolute;
+      top: 7%;
+      left: 87%;
+      transform: translate(-50%, -50%);
+      width: 15vw;
+      z-index: 6;
+    }
+  
+    #nic {
+      position: absolute;
+      top: 90vh;
+      left: 78vw;
+      width: 12vw;
+    }
+  
+    #electricImg {
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      height: 100vh;
+      width: 200vw;
+      opacity: 0.8;
+      z-index: 1;
+    }
+  
+    #apexH1 {
+      position: absolute;
+      top: 37vh;
+      left: 10vw;
+      font-family: "Bebas Neue", cursive;
+      font-size: 12vw;
+      color: rgb(122, 121, 121);
+      opacity: 0.7;
+      z-index: 5;
+    }
+  
+    #tag {
+      position: absolute;
+      top: 4vh;
+      left: 8vw;
+      width: 12vw;
+      z-index: 3;
+      display: block;
+    }
+  
+    #tag:hover {
+      cursor: pointer;
+    }
+  
+    #tag1 {
+      position: absolute;
+      top: 6.2vh;
+      left: 8vw;
+      width: 12vw;
+      z-index: 2;
+      opacity: 0;
+      display: block;
+    }
+    #tag2 {
+      position: absolute;
+      top: 6.2vh;
+      left: 8vw;
+      width: 12vw;
+      z-index: 2;
+      opacity: 0;
+      display: block;
+    }
+  
+   
+  
+    #novaLogo {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80vw;
+    }
+  
+    #contactPage1 {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20vw;
+      height: 5vh;
+      z-index: 5;
+    }
+  
+    #contactPage1H1 {
+      position: absolute;
+      font-family: "Bebas Neue", cursive;
+      font-size: 4vw;
+      color: rgb(255, 255, 255);
+      top: 15%;
+      left: 50%;
+      width: 15vw;
+      transform: translate(-50%, -50%);
+    }
+  
+    #webDesignCircle {
+      position: absolute;
+      top: 75vh;
+      left: 3vw;
+      width: 26.2vw;
+      opacity: 0;
+      animation: appear 2s linear forwards;
+      animation-delay: 1s;
+      z-index: 5;
+    }
+    #circle {
+      position: absolute;
+      top: 75vh;
+      left: 37vw;
+      width: 26.2vw;
+      opacity: 0;
+      animation: appear 2s linear forwards;
+      animation-delay: 1s;
+      z-index: 5;
+    }
+    #circle:hover {
+      cursor: pointer;
+    }
+    #domainNameCircle {
+      position: absolute;
+      top: 75vh;
+      left: 70vw;
+      width: 26vw;
+      opacity: 0;
+      animation: appear 2s linear forwards;
+      animation-delay: 1s;
+      z-index: 5;
+    }
+  } 
+
+  /* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+@media only screen and (max-device-width: 450px) {
+  /* page 1 below */
+
+  body {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    
+    
+  }
+  
+  #mainContainer {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  #page1 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+   
+    
+  }
+  /*
+        #novaBackground{
+          position: absolute;
+          top: -15vh;
+          left: -75vw;
+          width: 310vw;
+          height: 130vh;  
+        }
+    */
+  #planetImgDiv {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+  #novaBackground {
+    position: absolute;
+    top: 17vh;
+    left: -40vw;
+    width: 187vw;
+    height: 65vh;
+    overflow: hidden;
+  }
+
+  #star1 {
+    position: absolute;
+    top: 31vh;
+    left: 76vw;
+    width: 2vw;
+    z-index: 5;
+    opacity: 0;
+    animation: shine 10s linear infinite;
+    animation-delay: 2s;
+    display: none;
+  }
+  #star2 {
+    position: absolute;
+    top: 44vh;
+    left: 16.2vw;
+    width: 2vw;
+    z-index: 5;
+    opacity: 0;
+    animation: shine 10s linear infinite;
+    animation-delay: 6s;
+    display: none;
+  }
+  #star3 {
+    position: absolute;
+    top: 30.5vh;
+    left: 44vw;
+    width: 2vw;
+    z-index: 5;
+    opacity: 0;
+    animation: shine 10s linear infinite;
+    animation-delay: 4s;
+    display: none;
+  }
+
+  #saucer {
+    position: absolute;
+    top: 30.5vh;
+    left: 10vw;
+    width: 5vw;
+    z-index: 5;
+    opacity: 0;
+    animation: saucer 20s linear infinite;
+    animation-delay: 4s;
+    display: none;
+  }
+
+  #unsplashCredit {
+    position: absolute;
+    color: white;
+    top: 95vh;
+    left: 85vw;
+    font-size: 0.8vw;
+    display: none;
+  }
+
+  #fBook {
+    position: absolute;
+    top: 6%;
+    left: 85%;
+    width: 15vw;
+    transform: translate(-50%, -50%);
+  
+    z-index: 6;
+  }
+
+  #nic {
+    position: absolute;
+    top: 90vh;
+    left: 78vw;
+    width: 12vw;
+  }
+
+  #electricImg {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 200vw;
+    opacity: 0.8;
+    z-index: 1;
+  }
+
+  #apexH1 {
+    position: absolute;
+    top: 41vh;
+    left: 10vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 12vw;
+    color: rgb(122, 121, 121);
+    opacity: 0.7;
+    z-index: 5;
+  }
+
+  #tag {
+    position: absolute;
+    top: 3vh;
+    left: 10vw;
+    width: 15vw;
+    z-index: 3;
+    display: block;
+  }
+
+  #tag:hover {
+    cursor: pointer;
+  }
+
+  #tag1 {
+    position: absolute;
+    top: 5.2vh;
+    left: 10vw;
+    width: 15vw;
+    z-index: 2;
+    opacity: 0;
+    display: block;
+  }
+  #tag2 {
+    position: absolute;
+    top: 5.2vh;
+    left: 10vw;
+    width: 15vw;
+    z-index: 2;
+    opacity: 0;
+    display: block;
+  }
+
+
+
+  #novaLogo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+  }
+
+  #contactPage1 {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 5vh;
+    z-index: 5;
+  }
+
+  #contactPage1H1 {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.5vw;
+    color: rgb(255, 255, 255);
+    top: 15%;
+    left: 50%;
+    width: 13.5vw;
+    transform: translate(-50%, -50%);
+  }
+
+  #webDesignCircle {
+    position: absolute;
+    top: 80vh;
+    left: 2vw;
+    width: 29.2vw;
+    opacity: 0;
+    animation: appear 2s linear forwards;
+    animation-delay: 1s;
+    z-index: 5;
+  }
+  #circle {
+    position: absolute;
+    top: 80vh;
+    left: 35.5vw;
+    width: 29.2vw;
+    opacity: 0;
+    animation: appear 2s linear forwards;
+    animation-delay: 1s;
+    z-index: 5;
+  }
+  #circle:hover {
+    cursor: pointer;
+  }
+  #domainNameCircle {
+    position: absolute;
+    top: 80vh;
+    left: 69vw;
+    width: 28.5vw;
+    opacity: 0;
+    animation: appear 2s linear forwards;
+    animation-delay: 1s;
+    z-index: 5;
+  }
+}

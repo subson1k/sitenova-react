@@ -1,0 +1,519 @@
+#mainContainer {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+#page3 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0vw;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 0;
+  }
+  
+  #page3background {
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    width: 100vw;
+    height: 140vh;
+  }
+  
+  #page3H1 {
+    position: absolute;
+    color: rgb(221, 221, 221);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    font-family: "Bebas Neue", cursive;
+    z-index: 5;
+  }
+  #page3p {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.6vw;
+    color: rgb(221, 221, 221);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    z-index: 6;
+  }
+  
+  #page3H2 {
+    position: absolute;
+    top: 14vh;
+    left: 30.5vw;
+    font-size: 3vw;
+    color: rgb(179, 179, 179);
+    font-family: "Bebas Neue", cursive;
+    z-index: 5;
+  }
+  
+  #topBackground {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(215, 223, 216);
+    display: none;
+  }
+  
+  #apexPic {
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    opacity: 0.7;
+  }
+  
+  #apexH1 {
+    position: absolute;
+    top: 54vh;
+    left: 21vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+  
+  #icecreamPic {
+    position: absolute;
+    top: 30vh;
+    left: 58vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    opacity: 0.7;
+  }
+  #icecreamH1 {
+    position: absolute;
+    top: 54vh;
+    left: 64vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+  
+  #nickyhPic {
+    position: absolute;
+    top: 65vh;
+    left: 15vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    opacity: 0.7;
+  }
+  
+  #nickyH1 {
+    position: absolute;
+    top: 89vh;
+    left: 24vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+  #assaultPic {
+    position: absolute;
+    top: 65vh;
+    left: 58vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    opacity: 0.7;
+  }
+  #assaultH1 {
+    position: absolute;
+    top: 89vh;
+    left: 65vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+  
+  #arrow-up3 {
+    position: absolute;
+    top: 25vh;
+    left: 85vw;
+    height: 15vh;
+    opacity: 0.6;
+    z-index: 6;
+  }
+  #arrow-up3:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  #arrow-down3 {
+    position: absolute;
+    top: 65vh;
+    left: 85vw;
+    height: 15.2vh;
+    opacity: 0.6;
+    z-index: 6;
+  }
+  #arrow-down3:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  #reviewDiv {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 59vw;
+    height: 60vh;
+  }
+  
+  #reviewH2 {
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+    font-size: 1.5vw;
+    font-family: "Bebas Neue", cursive;
+    color: rgb(104, 101, 101);
+    z-index: 7;
+  }
+
+  /* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+
+@media only screen and (max-device-width: 1050px) {
+
+
+   /* page 3 below */
+
+   #page3background {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 240vw;
+  }
+
+ 
+
+  #page3H1 {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 8vw;
+    color: rgb(221, 221, 221);
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 6;
+  }
+  #page3p {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(221, 221, 221);
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 6;
+  }
+
+  #apexPic {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+  #apexH1 {
+    position: absolute;
+    top: 40vh;
+    left: 33vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #icecreamPic {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+  #icecreamH1 {
+    position: absolute;
+    top: 65vh;
+    left: 33vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #nickyhPic {
+    position: absolute;
+    top: 75vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+
+  #nickyH1 {
+    position: absolute;
+    top: 90vh;
+    left: 40vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #assaultPic {
+    position: absolute;
+    top: 65vh;
+    left: 40vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    display: none;
+  }
+  #assaultH1 {
+    position: absolute;
+    top: 87vh;
+    left: 57vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+    display: none;
+  }
+
+
+
+
+
+}
+
+/* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+  @media only screen and (max-device-width: 450px) {
+
+
+     /* page 3 below */
+
+  #backdropPage3 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 240vw;
+  }
+
+ 
+  #page3H1 {
+    position: absolute;
+    padding-left: 20px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    color: rgb(247, 247, 247);
+    font-family: "Bebas Neue", cursive;
+    z-index: 5;
+  }
+  #page3p {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(221, 221, 221);
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 6;
+  }
+
+  #apexPic {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+  #apexH1 {
+    position: absolute;
+    top: 40vh;
+    left: 33vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #icecreamPic {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+  #icecreamH1 {
+    position: absolute;
+    top: 65vh;
+    left: 33vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #nickyhPic {
+    position: absolute;
+    top: 75vh;
+    left: 25vw;
+    width: 50vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+  }
+
+  #nickyH1 {
+    position: absolute;
+    top: 90vh;
+    left: 40vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+  }
+
+  #assaultPic {
+    position: absolute;
+    top: 65vh;
+    left: 40vw;
+    width: 25vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(147, 177, 189);
+    background-color: black;
+    display: none;
+  }
+  #assaultH1 {
+    position: absolute;
+    top: 87vh;
+    left: 57vw;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 5;
+    display: none;
+  }
+
+
+
+
+  }
+  
+ 

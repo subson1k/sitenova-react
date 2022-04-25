@@ -1,0 +1,252 @@
+
+ body {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  #mainContainer {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+
+#backdropPage2 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 110vh;
+    width: 110vw;
+  }
+  
+  #page2 {
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(35, 48, 75);
+    z-index: 0;
+  }
+  
+  #page2H2 {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 5vw;
+    color: rgb(221, 221, 221);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    z-index: 6;
+  }
+  #page2p {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2vw;
+    color: rgb(221, 221, 221);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    z-index: 6;
+  }
+  
+  #package1 {
+    position: absolute;
+    top: 32vh;
+    left: 10vw;
+    width: 29vw;
+    z-index: 2;
+  }
+  #package2 {
+    position: absolute;
+    top: 31.5vh;
+    left: 34.6vw;
+    width: 29vw;
+    z-index: 2;
+  }
+  #package3 {
+    position: absolute;
+    top: 32vh;
+    left: 60vw;
+    width: 29vw;
+    z-index: 2;
+  }
+  
+/* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+
+  @media only screen and (max-device-width: 1050px) {
+    
+ /* page 2 below */
+ #backdropPage2 {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  height: 110vh;
+  width: 210vw;
+}
+
+#page2H2 {
+  position: absolute;
+  font-family: "Bebas Neue", cursive;
+  font-size: 8vw;
+  color: rgb(221, 221, 221);
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 6;
+}
+#page2p {
+  position: absolute;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5vw;
+  color: rgb(221, 221, 221);
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 6;
+}
+
+#package1 {
+  position: absolute;
+  top: 15vh;
+  left: 32vw;
+  width: 40vw;
+  z-index: 2;
+}
+#package2 {
+  position: absolute;
+  top: 42vh;
+  left: 32vw;
+  width: 40vw;
+  z-index: 2;
+}
+#package3 {
+  position: absolute;
+  top: 69vh;
+  left: 32vw;
+  width: 40vw;
+  z-index: 2;
+}
+
+}  
+
+  /* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+@media only screen and (max-device-width: 450px) {
+  /* page 2 below */
+
+
+  #backdropPage2 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 110vh;
+    width: 210vw;
+  }
+
+  #page2H2 {
+    position: absolute;
+    padding-left: 20px;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    color: rgb(247, 247, 247);
+    font-family: "Bebas Neue", cursive;
+    z-index: 6;
+  }
+  #page2p {
+    position: absolute;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2.5vw;
+    color: rgb(221, 221, 221);
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 6;
+  }
+
+  #package1 {
+    position: absolute;
+    top: 14vh;
+    left: 25vw;
+    width: 55vw;
+    z-index: 2;
+  }
+  #package2 {
+    position: absolute;
+    top: 42vh;
+    left: 25vw;
+    width: 55vw;
+    z-index: 2;
+  }
+  #package3 {
+    position: absolute;
+    top: 70vh;
+    left: 25vw;
+    width: 55vw;
+    z-index: 2;
+  }
+
+ 
+
+
+}

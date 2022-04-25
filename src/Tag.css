@@ -1,0 +1,285 @@
+.tag {
+    position: absolute;
+    top: 9vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 1;
+    display: block;
+    opacity: 0;
+    animation: appear 2s linear forwards;
+    animation-delay: 1s;
+    cursor: pointer;
+  }
+  .theTag1 {
+    position: absolute;
+    top: 9vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 1;
+    display: block;
+    opacity: 0;
+    animation: tagPress 2s linear forwards;
+    cursor: pointer;
+    
+  }
+  .theTag2 {
+    position: absolute;
+    top: 9vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 1;
+    display: block;
+    opacity: 0;
+    animation: tagBack 1s linear forwards;
+    cursor: pointer;
+    
+  }
+
+  .tag1 {
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 15;
+    display: block;
+    animation: tag1 1s linear forwards;
+    cursor: pointer;
+  }
+  .tag2 {
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 15;
+    cursor: pointer;
+    display: block;
+    animation: tag2 1s linear forwards;
+    
+    
+  }
+  .tag3 {
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 15;
+    cursor: pointer;
+    display: block;
+    animation: tag1Reverse 1s linear forwards;
+  }
+  .tag4 {
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+    width: 6vw;
+    z-index: 15;
+    cursor: pointer;
+    display: block;
+    animation: tag2Reverse 1s linear forwards;
+  }
+
+  #menuDiv {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(63, 59, 59);
+    opacity: 0;
+    list-style: none;
+    z-index: 10;
+    color: white;
+    animation: menuShow 1s linear forwards;
+    
+  }
+  .menu1 {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(63, 59, 59);
+    opacity: 1;
+    list-style: none;
+    z-index: 10;
+    color: white;
+    animation: menuShow 1s linear forwards;
+    
+  }
+  .menu2 {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(63, 59, 59);
+    opacity: 1;
+    list-style: none;
+    z-index: 10;
+    color: white;
+    animation: menuHide 1s linear forwards;
+    
+  }
+  .linkIt{
+    color: white;
+    position: relative;
+    font-size: 4vw;
+    cursor: pointer;
+  }
+  
+  #menuUL li {
+    text-decoration: none;
+    
+  }
+  
+  #menuPage1 {
+    position: absolute;
+    top: 30vh;
+    width: 5vw;
+    list-style: none;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4vw;
+   
+    
+  }
+  #menuPage1:hover {
+    cursor: pointer;
+  }
+  
+  #menuPage2 {
+    position: absolute;
+    top: 40vh;
+    width: 5vw;
+    list-style: none;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4vw;
+  }
+  #menuPage2:hover {
+    cursor: pointer;
+  }
+  #menuPage3 {
+    position: absolute;
+    top: 50vh;
+    width: 13vw;
+    list-style: none;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4vw;
+  }
+  #menuPage3:hover {
+    cursor: pointer;
+  }
+  #menuPage4 {
+    position: absolute;
+    top: 60vh;
+    width: 10vw;
+    list-style: none;
+    font-family: "Bebas Neue", cursive;
+    font-size: 4vw;
+  }
+  #menuPage4:hover {
+    cursor: pointer;
+  }
+  
+/* 
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  */
+
+  @media only screen and (max-device-width: 1050px) {
+    /* page 1 below */
+  
+
+  .tag {
+    position: absolute;
+    top: 4vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 3;
+    display: block;
+  }
+  .theTag1{
+    position: absolute;
+    top: 4vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 3;
+    display: block; 
+    opacity: 0;
+    animation: tagPress 2s linear forwards;
+    cursor: pointer; 
+  }
+  .theTag2{
+    position: absolute;
+    top: 4vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 3;
+    display: block; 
+    opacity: 0;
+    animation: tagBack 1s linear forwards;
+    cursor: pointer; 
+  }
+
+  #tag:hover {
+    cursor: pointer;
+  }
+
+  .tag1 {
+    position: absolute;
+    top: 6.2vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 15;
+    opacity: 0;
+    display: block;
+  }
+  .tag2 {
+    position: absolute;
+    top: 6.2vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 15;
+    opacity: 0;
+    display: block;
+  }
+  .tag3 {
+    position: absolute;
+    top: 6.2vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 15;
+    opacity: 0;
+    display: block;
+  }
+  .tag4 {
+    position: absolute;
+    top: 6.2vh;
+    left: 8vw;
+    width: 12vw;
+    z-index: 15;
+    opacity: 0;
+    display: block;
+  }
+  }
